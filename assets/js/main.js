@@ -1,5 +1,3 @@
-
-
 /* --- safety helpers inserted automatically ---
    safeGet(key) -> returns parsed JSON from localStorage or null safely
    sanitizeAndSet(key, obj) -> removes sensitive props (password, token) before storing
@@ -818,4 +816,3 @@ document.addEventListener('error', function(e) {
         e.target.src = 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400';
     }
 }, true);
-[file content end]
